@@ -1,0 +1,14 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: rgb(9, 255, 0);
+  box-sizing: border-box !important;
+}
+
+p {
+  color: #051769;
+}
