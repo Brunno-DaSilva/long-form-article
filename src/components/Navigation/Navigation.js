@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import Modal from "../Modal/Modal";
 import NavItems from "../NavItems/NavItems";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
@@ -17,12 +16,6 @@ import {
 import "./Navigation.css";
 
 const Navigation = ({ NAV_DATA }) => {
-  const [openModal, setOpenModal] = useState(false);
-
-  const openModalHandler = () => {
-    setOpenModal((prevState) => !prevState);
-  };
-
   return (
     <div className="Navigation">
       <div className="nav__logo">
@@ -63,7 +56,6 @@ const Navigation = ({ NAV_DATA }) => {
         <FontAwesomeIcon className="nav__icons-item" icon={faInstagram} />
         <FontAwesomeIcon className="nav__icons-item" icon={faLinkedinIn} />
       </div>
-      {openModal && <Modal />}
     </div>
   );
 };

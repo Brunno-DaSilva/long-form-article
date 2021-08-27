@@ -10,6 +10,6 @@
   position: absolute;
   top: 110%;
   left: 20%;
-  width: 80%;
+  min-width: 400px;
   border: 1px solid red;
 }

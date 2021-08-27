@@ -1,12 +1,24 @@
 import React from "react";
 import "./modal.css";
 
-const Modal = () => {
+const Modal = ({ title, items, openModalHandler, ...otherSectionProps }) => {
+  console.log(items);
+
   return (
     <div className="Modal">
       <button type="button">X</button>
-      <h1>Modal Title</h1>
-      <p>This is a modal</p>
+      <h1>{title}</h1>
+      <div>
+        {items.map((data) => {
+          return (
+            <div id={otherSectionProps.id}>
+              <p>
+                <a href={data.url}>{data.name}</a>
+              </p>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };
