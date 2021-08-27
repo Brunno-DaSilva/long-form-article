@@ -1,14 +1,82 @@
-.navigation {
+:root {
+  --dark-blue: #184366;
+  --light-green: #0e987d;
+  --light-blue: #5ab3c4;
+  --yellow: #e8b20f;
+  --orange: #e95b37;
+  --OffWhite: #f8f8f8;
+}
+
+.Navigation {
+  position: relative;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
   padding: 0.5rem;
-  background-color: rgb(9, 255, 0);
+  background-color: var(--dark-blue);
   box-sizing: border-box !important;
 }
 
 p {
   color: #051769;
+}
+img {
+  color: var(--OffWhite);
+}
+
+.nav__logo {
+  width: 200px;
+  margin: 0 1.5rem;
+  margin-left: 3rem;
+}
+
+.nav__container {
+  margin-right: 1.5rem;
+}
+
+.nav__button {
+  background: transparent;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: var(--OffWhite);
+  position: relative;
+  -webkit-transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
+}
+
+.nav__button:hover {
+  cursor: pointer;
+}
+
+.nav__button:after {
+  background: none repeat scroll 0 0 transparent;
+  top: 100%;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  border-radius: 0.5rem;
+  left: 50%;
+  position: absolute;
+  background: var(--yellow);
+  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+  z-index: 99;
+}
+
+.nav__button:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.nav__icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nav__icons-item {
+  margin: 0 0.5rem;
+  color: var(--OffWhite);
 }
