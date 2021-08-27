@@ -1,10 +1,15 @@
 import React from "react";
+import Modal from "../Modal/Modal";
+
 import "./Navigation.css";
 
 const Navigation = () => {
   return (
     <div className="navigation">
-      <p>NAVIGATION</p>
+      <button type="button" className="btn">
+        Schools
+      </button>
+      <Modal />
     </div>
   );
 };
