@@ -12,20 +12,26 @@ const NavItems = ({ title, items, ...otherSectionProps }) => {
   };
 
   return (
-    <div className="NavItems">
-      <button onClick={openModalHandler} type="button" className="nav__button">
-        {title}
-      </button>
+    <>
+      <div className="NavItems">
+        <button
+          onClick={openModalHandler}
+          type="button"
+          className="nav__button"
+        >
+          {title}
+        </button>
 
-      {openModal && (
-        <Modal
-          title={title}
-          items={items}
-          {...otherSectionProps}
-          openModalHandler={openModalHandler}
-        />
-      )}
-    </div>
+        {openModal && (
+          <Modal
+            title={title}
+            items={items}
+            {...otherSectionProps}
+            openModalHandler={openModalHandler}
+          />
+        )}
+      </div>
+    </>
   );
 };
 

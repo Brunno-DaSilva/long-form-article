@@ -21,6 +21,7 @@ const NAV_DATA = [
         url: "https://www.friscoisdsports.com/news",
       },
     ],
+    mainURL: "",
   },
   {
     id: 2,
@@ -116,6 +117,19 @@ const NAV_DATA = [
         class: "btn__about",
       },
     ],
+    mainURL: "",
+  },
+  {
+    id: 1,
+    title: "DEPARTMENTS",
+    selected: false,
+    items: [
+      {
+        name: "Departments & Services",
+        url: "https://www.friscoisd.org/departments",
+      },
+    ],
+    mainURL: "https://www.friscoisd.org/departments",
   },
 ];
 

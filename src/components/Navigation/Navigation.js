@@ -22,28 +22,6 @@ const Navigation = ({ NAV_DATA }) => {
         <FLogo />
       </div>
       <div className="nav__container">
-        {/*
-         <button
-          onClick={openModalHandler}
-          type="button"
-          className="nav__button"
-        >
-          NEWS
-        </button>
-        <button type="button" className="nav__button">
-          ABOUT
-        </button>
-        <button type="button" className="nav__button">
-          DEPARTMENTS
-        </button>
-
-        <button type="button" className="nav__button">
-          SCHOOLS
-        </button>
-        <button type="button" className="nav__button">
-          EMPLOYMENT
-        </button>
-      */}
         {NAV_DATA.map(({ id, ...otherSectionProps }) => {
           return <NavItems key={id} {...otherSectionProps} />;
         })}
