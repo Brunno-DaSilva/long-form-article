@@ -33,13 +33,12 @@ const NavItems = ({ title, items, ...otherSectionProps }) => {
 
   return (
     <>
-      <div className="NavItems">
+      <div ref={menuRef} className="NavItems">
         <button
           onClick={openModalHandler}
           type="button"
           className="nav__button"
           id={title}
-          ref={menuRef}
         >
           {title}{" "}
           <span>

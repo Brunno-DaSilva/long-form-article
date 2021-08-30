@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import NavItems from "../NavItems/NavItems";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faAngleDown } from "@fortawesome/free-solid-svg-icons";
