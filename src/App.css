@@ -16,7 +16,6 @@ p {
 }
 
 .App {
-  border: 1px solid red;
   background-color: var(--dark-blue);
   width: 100vw;
   box-sizing: border-box !important;

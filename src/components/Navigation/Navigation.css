@@ -19,8 +19,35 @@
 }
 
 p {
-  color: #051769;
+  position: relative;
 }
+.nav__a {
+  color: var(--OffWhite);
+  text-decoration: none;
+}
+
+.nav__a:after {
+  background: none repeat scroll 0 0 transparent;
+  top: 100%;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  border-radius: 0.5rem;
+  left: 50%;
+  position: absolute;
+  background: var(--yellow);
+  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+  z-index: 99;
+}
+
+.nav__a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
 img {
   color: var(--OffWhite);
 }
@@ -36,6 +63,7 @@ img {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  border: 1px solid greenyellow;
 }
 
 .nav__icons {

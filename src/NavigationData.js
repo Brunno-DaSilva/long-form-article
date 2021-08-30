@@ -120,13 +120,37 @@ const NAV_DATA = [
     mainURL: "",
   },
   {
-    id: 1,
+    id: 3,
     title: "DEPARTMENTS",
     selected: false,
     items: [
       {
         name: "Departments & Services",
         url: "https://www.friscoisd.org/departments",
+      },
+    ],
+    mainURL: "https://www.friscoisd.org/departments",
+  },
+  {
+    id: 4,
+    title: "SCHOOLS",
+    selected: false,
+    items: [
+      {
+        name: "Departments",
+        url: "epartments",
+      },
+    ],
+    mainURL: "https://www.friscoisd.org/departments",
+  },
+  {
+    id: 5,
+    title: "EMPLOYMENT",
+    selected: false,
+    items: [
+      {
+        name: "EMPLOYMENT",
+        url: "EMPLOYMENT",
       },
     ],
     mainURL: "https://www.friscoisd.org/departments",

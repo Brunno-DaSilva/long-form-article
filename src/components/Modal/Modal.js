@@ -1,12 +1,18 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import "./modal.css";
 
 const Modal = ({ title, items, openModalHandler, ...otherSectionProps }) => {
-  console.log(items);
-
   return (
     <div className="Modal">
-      <button type="button">X</button>
+      <button
+        class="nav__button_close"
+        onClick={openModalHandler}
+        type="button"
+      >
+        <FontAwesomeIcon icon={faTimes} />
+      </button>
       <h1>{title}</h1>
       <div>
         {items.map((data) => {

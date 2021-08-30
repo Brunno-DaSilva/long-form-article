@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import NavItems from "../NavItems/NavItems";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { ReactComponent as FLogo } from "../../img/fisd-logo-white-rgb.svg";
 
 import {
@@ -22,7 +22,16 @@ const Navigation = ({ NAV_DATA }) => {
         <FLogo />
       </div>
       <div className="nav__container">
-        {NAV_DATA.map(({ id, ...otherSectionProps }) => {
+        {NAV_DATA.slice(0, 2).map(({ id, ...otherSectionProps }) => {
+          return <NavItems key={id} {...otherSectionProps} />;
+        })}
+        <p>
+          <a className="nav__a" href="https://www.friscoisd.org/departments">
+            DEPARTMENTS
+          </a>
+        </p>
+
+        {NAV_DATA.slice(-2).map(({ id, ...otherSectionProps }) => {
           return <NavItems key={id} {...otherSectionProps} />;
         })}
       </div>
