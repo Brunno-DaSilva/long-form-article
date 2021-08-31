@@ -53,12 +53,9 @@ const MainArticleForm = ({ ARTICLE_DATA }) => {
               <Parallax parallaxUrl_img={parallaxUrl_img} />
 
               <Article
-                header={header}
                 subHeader={subHeader}
+                articleSummary={articleSummary}
                 articleSummaryTwo={articleSummaryTwo}
-                authorName={authorName}
-                readingTime={readingTime}
-                DateTime={DateTime}
               />
               <ImageGalleryA imageGallery={imageGallery} />
             </>

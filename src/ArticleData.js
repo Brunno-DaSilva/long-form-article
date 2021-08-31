@@ -13,7 +13,7 @@ const ARTICLE_DATA = [
       "https://res.cloudinary.com/duprwuo4j/video/upload/v1630352010/school_kvpusu.mp4",
     parallaxUrl_img:
       "https://res.cloudinary.com/duprwuo4j/image/upload/v1604074385/babyboy_pjrncc.jpg",
-    header: "The Woman who fell f5rom the Sky",
+    header: "The Woman who fell from the Sky",
     subHeader: "A new Disease",
     articleSummary:
       "Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.",
