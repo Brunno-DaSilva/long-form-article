@@ -3,6 +3,7 @@ import LandingPage from "../LandingPage/LandingPage";
 import Article from "../Article/Article";
 import Blockquote from "../Blockquote/Blockquote";
 import Parallax from "../Parallax/Parallax";
+import ImageGalleryA from "../ImageGalleryA/ImageGalleryA";
 
 import "./mainArticleForm.css";
 
@@ -49,6 +50,7 @@ const MainArticleForm = ({ ARTICLE_DATA }) => {
                 blockquote={blockquote}
                 blockquoteAuthor={blockquoteAuthor}
               />
+              <Parallax parallaxUrl_img={parallaxUrl_img} />
 
               <Article
                 header={header}
@@ -58,7 +60,7 @@ const MainArticleForm = ({ ARTICLE_DATA }) => {
                 readingTime={readingTime}
                 DateTime={DateTime}
               />
-              <Parallax parallaxUrl_img={parallaxUrl_img} />
+              <ImageGalleryA imageGallery={imageGallery} />
             </>
           );
         }

@@ -6,7 +6,7 @@ therefore, the landing page will display img, otherwise, display the video
 const ARTICLE_DATA = [
   {
     id: 1,
-    isVideo: true,
+    isVideo: false,
     landingPageURL_img:
       "https://res.cloudinary.com/duprwuo4j/image/upload/v1604069785/erika-fletcher-MZxqc6n9qCw-unsplash_1_ajkdux.jpg",
     landingPageURL_video:
@@ -22,32 +22,44 @@ const ARTICLE_DATA = [
 
     imageGallery: [
       {
-        name: "Class Room",
+        originalTitle: "Class Room",
         description: "students in the class room",
-        imageURL:
+        original:
           "https://res.cloudinary.com/duprwuo4j/image/upload/v1598505291/neonbrand-zFSo6bnZJTw-unsplash_1_q3dvgg.jpg",
-        imageCredits: "online source by Bruno DaSilva",
+        thumbnail: "https://res.cloudinary.com/duprwuo4j/image/upload/c_thumb,w_200,g_face/v1598505291/neonbrand-zFSo6bnZJTw-unsplash_1_q3dvgg.jpg",
+        thumbnailLabel: "Photo by Bruno DaSilva",
+        originalHeight: 427, 
+        originalWidth: 640,
       },
       {
-        name: "Construction",
-        description: "some construction taking place",
-        imageURL:
-          "https://res.cloudinary.com/duprwuo4j/image/upload/v1602433230/hc-const_vxrkcn.jpg",
-        imageCredits: "Online source by Bruno DaSilva",
+        originalTitle: "Love to learn",
+        description: "Love to learn description ",
+        original:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1598505085/tim-mossholder-WE_Kv_ZB1l0-unsplash_1_x8iqrj.jpg",
+        thumbnail: "https://res.cloudinary.com/duprwuo4j/image/upload/c_thumb,w_200,g_face/v1598505085/tim-mossholder-WE_Kv_ZB1l0-unsplash_1_x8iqrj.jpg",
+        thumbnailLabel: "Photo by Bruno DaSilva",
+        originalHeight: 427, 
+        originalWidth: 640,
       },
       {
-        name: "Virtual Student",
+        originalTitle: "Virtual Student",
         description: "Student with headphones",
-        imageURL:
+        original:
           "https://res.cloudinary.com/duprwuo4j/image/upload/v1598505021/ben-mullins-je240KkJIuA-unsplash_1_svdhzv.jpg",
-        imageCredits: "Online source by Bruno DaSilva",
+        thumbnail: "https://res.cloudinary.com/duprwuo4j/image/upload/c_thumb,w_200,g_face/v1598505021/ben-mullins-je240KkJIuA-unsplash_1_svdhzv.jpg",
+        thumbnailLabel: "Photo by Bruno DaSilva",
+        originalHeight: 427, 
+        originalWidth: 640,
       },
       {
-        name: "Back to School",
+        originalTitle: "Back to School",
         description: "Back to School sign",
-        imageURL:
+        original:
           "https://res.cloudinary.com/duprwuo4j/image/upload/v1598505164/deleece-cook-zzjLGF_6dx4-unsplash_1_hjkqeh.jpg",
-        imageCredits: "Online source by Bruno DaSilva",
+        thumbnail: "https://res.cloudinary.com/duprwuo4j/image/upload/c_thumb,w_200,g_face/v1598505164/deleece-cook-zzjLGF_6dx4-unsplash_1_hjkqeh.jpg",
+        thumbnailLabel: "Photo by Bruno DaSilva",
+        originalHeight: 427, 
+        originalWidth: 640,
       },
     ],
     blockquote:
@@ -56,6 +68,7 @@ const ARTICLE_DATA = [
     authorName: "Bruno DaSilva",
     readingTime: 5,
     DateTime: "March 26, 1989",
+    
   },
 ];
 
