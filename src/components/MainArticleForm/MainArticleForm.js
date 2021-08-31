@@ -39,7 +39,6 @@ const MainArticleForm = ({ ARTICLE_DATA }) => {
 
               <Article
                 header={header}
-                subHeader={subHeader}
                 articleSummary={articleSummary}
                 authorName={authorName}
                 readingTime={readingTime}

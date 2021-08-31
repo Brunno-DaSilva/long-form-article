@@ -20,7 +20,6 @@
 
 .Article_header, .Article_body{
     width: 750px;
-    border: 1px solid green; 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -40,7 +39,19 @@
 }
 
 .Article_header__info{
-    border: 1px solid blue; 
     display: flex;
     padding: 0 0.7rem;
+}
+.Article_header__info-item{
+    color: #555858 !important;
+    font-size: 15px;
+    margin: 0 0.5rem;
+    margin-top: 0.5em;
+}
+
+.Article_body .Article_body__text p{
+    font-size: 21px !important;
+    color: #3b3d3d !important;
+    line-height: 32px;
+    margin-top: 2em;
 }
