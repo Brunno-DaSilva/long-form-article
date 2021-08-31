@@ -9,7 +9,7 @@
   }
 
 .Article{
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
     width: 70%;
     display: flex;
     flex-direction: column;
