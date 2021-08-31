@@ -5,7 +5,7 @@ const LandingPage = ({ isVideo, landingPageURL_img, landingPageURL_video }) => {
     <div className="LandingPage">
       {isVideo ? (
         <div>
-          <video width="100%" height="auto" controls autoplay loop muted>
+          <video width="100%" height="auto" autoplay loop muted>
             <source src={landingPageURL_video} type="video/mp4" />
           </video>
         </div>

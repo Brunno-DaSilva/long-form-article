@@ -12,28 +12,9 @@ const NavItems = ({ title, items, ...otherSectionProps }) => {
     setOpenModal((prevState) => !prevState);
   };
 
-  // To close the menu I used the reference to the current event of the btn
-  // outside of this event will cause the menu to close
-  // clicking on other btn will cause the menu to close.
-  let menuRef = useRef();
-
-  useEffect(() => {
-    let clickHandler = (event) => {
-      if (!menuRef.current.contains(event.target)) {
-        setOpenModal(false);
-      }
-    };
-
-    document.addEventListener("mousedown", clickHandler);
-
-    return () => {
-      document.removeEventListener("mousedown", clickHandler);
-    };
-  });
-
   return (
     <>
-      <div ref={menuRef} className="NavItems">
+      <div className="NavItems">
         <button
           onClick={openModalHandler}
           type="button"
@@ -56,6 +37,7 @@ const NavItems = ({ title, items, ...otherSectionProps }) => {
             items={items}
             {...otherSectionProps}
             openModalHandler={openModalHandler}
+            setOpenModal={setOpenModal}
           />
         )}
       </div>
