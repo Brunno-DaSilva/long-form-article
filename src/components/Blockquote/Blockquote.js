@@ -1,11 +1,12 @@
 import React from "react";
 import "./Blockquote.css";
 
-const Blockquote = () => {
+const Blockquote = ({ blockquote, blockquoteAuthor }) => {
   return (
-    <div className="Blockquote">
-      <p>Blockquote</p>
-    </div>
+    <blockquote className="Blockquote">
+      {blockquote}
+      <span>{blockquoteAuthor}</span>
+    </blockquote>
   );
 };
 

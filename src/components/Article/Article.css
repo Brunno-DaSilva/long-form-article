@@ -6,6 +6,7 @@
   --orange: #e95b37;
   --OffWhite: #f8f8f8;
   --textColor: #434952;
+  --subHeader: #626874;
 }
 
 .Article {
@@ -40,7 +41,7 @@
   letter-spacing: -3px;
 }
 .Article_body__subtitle {
-  color: var(--dark-blue);
+  color: var(--subHeader);
   margin-top: 56px;
   font-size: 32px !important;
   margin-bottom: -0.27em;
