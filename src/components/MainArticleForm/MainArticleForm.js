@@ -55,7 +55,11 @@ const MainArticleForm = ({ ARTICLE_DATA }) => {
                 parallaxUrl_img={parallaxUrl_img}
                 parallax_text={parallax_text}
               />
-
+              <Article
+                subHeader={subHeader}
+                articleSummary={articleSummary}
+                articleSummaryTwo={articleSummaryTwo}
+              />
               <Blockquote
                 blockquote={blockquote}
                 blockquoteAuthor={blockquoteAuthor}

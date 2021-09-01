@@ -30,7 +30,7 @@
 }
 
 .Article .Article_header__title {
-  color: var(--dark-blue);
+  color: var(--subHeader);
   margin-top: 56px;
   margin-bottom: -0.27em;
   font-style: normal;
@@ -43,9 +43,8 @@
 }
 .Article_body__subtitle {
   color: var(--subHeader);
-  margin-top: 56px;
   font-size: 32px !important;
-  margin-bottom: -0.27em;
+  margin-bottom: 0.27em;
   font-style: normal;
   font-weight: 700;
   word-wrap: break-word;
@@ -70,7 +69,7 @@
   font-size: 21px !important;
   color: var(--textColor) !important;
   line-height: 32px;
-  margin-top: 2em;
+  margin-top: 0.9em;
 }
 
 .dropcap:first-child:first-letter {
