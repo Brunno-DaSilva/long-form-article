@@ -45,16 +45,17 @@ const MainArticleForm = ({ ARTICLE_DATA }) => {
                 DateTime={DateTime}
               />
 
-              <Blockquote
-                blockquote={blockquote}
-                blockquoteAuthor={blockquoteAuthor}
-              />
               <Parallax parallaxUrl_img={parallaxUrl_img} />
 
               <Article
                 subHeader={subHeader}
                 articleSummary={articleSummary}
                 articleSummaryTwo={articleSummaryTwo}
+              />
+
+              <Blockquote
+                blockquote={blockquote}
+                blockquoteAuthor={blockquoteAuthor}
               />
               <ImageGalleryA imageGallery={imageGallery} />
             </>
