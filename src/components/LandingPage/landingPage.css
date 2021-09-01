@@ -1,0 +1,19 @@
+.LandingPage {
+  width: 100vw !important;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.LandingPage div img {
+  width: 100%;
+  height: auto;
+}
+
+.overlayLandingPage {
+  position: absolute;
+  width: 100%;
+  height: 99.9%;
+  background-color: rgba(0, 0, 0, 0.561);
+  z-index: 3 !important;
+  cursor: pointer;
+}

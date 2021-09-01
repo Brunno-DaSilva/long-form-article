@@ -16,6 +16,8 @@
   padding: 0.5rem;
   background-color: var(--dark-blue);
   box-sizing: border-box !important;
+  border-bottom: 2px solid var(--yellow);
+  z-index: 5 !important;
 }
 
 p {

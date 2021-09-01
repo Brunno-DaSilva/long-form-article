@@ -11,9 +11,4 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid greenyellow;
-}
-
-p {
-  color: var(--dark-blue) !important;
 }
