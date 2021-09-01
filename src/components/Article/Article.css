@@ -37,8 +37,9 @@
   font-weight: 700;
   word-wrap: break-word;
   line-height: 1.5;
-  font-size: 60px !important;
+  font-size: 59px !important;
   letter-spacing: -3px;
+  text-transform: capitalize;
 }
 .Article_body__subtitle {
   color: var(--subHeader);
@@ -49,11 +50,14 @@
   font-weight: 700;
   word-wrap: break-word;
   line-height: 1.5;
+  text-transform: capitalize;
 }
 
 .Article_header__info {
   display: flex;
   padding: 0 0.7rem;
+  font-style: italic;
+  color: var(--textColor);
 }
 .Article_header__info-item {
   color: var(--textColor) !important;

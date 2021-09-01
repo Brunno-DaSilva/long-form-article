@@ -13,6 +13,9 @@ const ARTICLE_DATA = [
       "https://res.cloudinary.com/duprwuo4j/video/upload/v1630352010/school_kvpusu.mp4",
     parallaxUrl_img:
       "https://res.cloudinary.com/duprwuo4j/image/upload/v1604074385/babyboy_pjrncc.jpg",
+
+    parallax_text:
+      "He determines the number of the stars and calls them each by name.",
     header: "The Woman who fell from the Sky",
     subHeader: "A new Disease",
     articleSummary:

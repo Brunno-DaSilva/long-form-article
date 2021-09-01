@@ -17,7 +17,7 @@ const Article = ({
 
         {header ? (
           <div className="Article_header__info">
-            <p className="Article_header__info-item">By {authorName}</p>
+            <p className="Article_header__info-item"> {authorName}</p>
             <p className="Article_header__info-item">{readingTime} min read</p>
             <p className="Article_header__info-item">{DateTime}</p>
           </div>

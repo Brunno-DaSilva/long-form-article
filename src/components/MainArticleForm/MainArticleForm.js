@@ -27,6 +27,7 @@ const MainArticleForm = ({ ARTICLE_DATA }) => {
           authorName,
           readingTime,
           DateTime,
+          parallax_text,
         }) => {
           return (
             <>
@@ -45,18 +46,21 @@ const MainArticleForm = ({ ARTICLE_DATA }) => {
                 DateTime={DateTime}
               />
 
-              <Parallax parallaxUrl_img={parallaxUrl_img} />
-
               <Article
                 subHeader={subHeader}
                 articleSummary={articleSummary}
                 articleSummaryTwo={articleSummaryTwo}
+              />
+              <Parallax
+                parallaxUrl_img={parallaxUrl_img}
+                parallax_text={parallax_text}
               />
 
               <Blockquote
                 blockquote={blockquote}
                 blockquoteAuthor={blockquoteAuthor}
               />
+
               <ImageGalleryA imageGallery={imageGallery} />
             </>
           );

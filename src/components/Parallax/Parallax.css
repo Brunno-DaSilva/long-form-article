@@ -1,0 +1,35 @@
+:root {
+  --dark-blue: #184366;
+  --light-green: #0e987d;
+  --light-blue: #5ab3c4;
+  --yellow: #e8b20f;
+  --orange: #e95b37;
+  --OffWhite: #f8f8f8;
+}
+
+.Parallax {
+  margin-top: 5rem;
+  width: 100vw;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.561);
+  z-index: 3 !important;
+  cursor: pointer;
+}
+
+.Parallax__text {
+  font-size: 3rem;
+  color: var(--OffWhite) !important;
+  position: absolute;
+  z-index: 4;
+  font-weight: bold;
+  width: 600px;
+}
