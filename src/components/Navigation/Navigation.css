@@ -8,18 +8,6 @@
 }
 
 .Navigation {
-  /* position: relative;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  padding: 0.5rem;
-  background-color: var(--dark-blue);
-  box-sizing: border-box !important;
-  border-bottom: 2px solid var(--yellow);
-  z-index: 5 !important;
-  border: 1px solid red; */
-
   display: grid;
   width: 100vw;
   padding: 1rem 0.5rem;
@@ -80,11 +68,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* margin-right: 1.5rem;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center; */
 }
 
 /*Main container for the Icons*/
@@ -109,7 +92,6 @@ img {
   -webkit-transition: ease-in-out 0.4s;
   transition: ease-in-out 0.4s;
 }
-
 .nav__last {
   grid-column: 10/12;
 }
