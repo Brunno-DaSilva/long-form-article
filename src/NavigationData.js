@@ -149,8 +149,45 @@ const NAV_DATA = [
     selected: false,
     items: [
       {
-        name: "EMPLOYMENT",
-        url: "EMPLOYMENT",
+        name: "Employment Home",
+        url: "https://www.friscoisd.org/employment",
+      },
+      {
+        name: "Job Openings",
+        url: "https://www.friscoisd.org/employment/current-openings",
+      },
+      {
+        name: "New Hires",
+        url: "https://www.friscoisd.org/employment/new-hires",
+      },
+      {
+        name: "Teachers &amp; Staff",
+        url: "https://www.friscoisd.org/employment/application-for-professional-teachers-and-staff",
+      },
+      {
+        name: "Paraprofessionals &amp; Auxiliary Employees",
+        url: "https://www.friscoisd.org/employment/operations-clerical-and-paraprofessional-positions",
+      },
+      {
+        name: "Substitutes",
+        url: "https://www.friscoisd.org/employment/substitutes",
+      },
+      {
+        name: "Student Observers",
+        url: "https://www.friscoisd.org/employment/student-observers",
+      },
+      {
+        name: "Student Teachers",
+        url: "https://www.friscoisd.org/employment/student-teachers",
+      },
+
+      {
+        name: "Employee Resources",
+        url: "https://www.friscoisd.org/employment/employee-resources",
+      },
+      {
+        name: "Frequently Asked Questions",
+        url: "https://www.friscoisd.org/employment/employment-faq",
       },
     ],
     mainURL: "https://www.friscoisd.org/departments",
