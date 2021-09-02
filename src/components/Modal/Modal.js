@@ -39,7 +39,7 @@ const Modal = ({
         >
           <FontAwesomeIcon icon={faTimes} />
         </button>
-        <h1>{title}</h1>
+        <h3>{title}</h3>
         <div className={title} ref={menuRef}>
           {items.map((data) => {
             return (
