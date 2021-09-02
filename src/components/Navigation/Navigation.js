@@ -17,6 +17,7 @@ import "./Navigation.css";
 const Navigation = ({ NAV_DATA }) => {
   return (
     <div className="Navigation">
+      <div className="nav__zero"></div>
       <div className="nav__logo">
         <FLogo />
       </div>
@@ -24,11 +25,11 @@ const Navigation = ({ NAV_DATA }) => {
         {NAV_DATA.slice(0, 2).map(({ id, ...otherSectionProps }) => {
           return <NavItems key={id} {...otherSectionProps} />;
         })}
-        <p>
+        <button>
           <a className="nav__a" href="https://www.friscoisd.org/departments">
             DEPARTMENTS
           </a>
-        </p>
+        </button>
 
         {NAV_DATA.slice(-2).map(({ id, ...otherSectionProps }) => {
           return <NavItems key={id} {...otherSectionProps} />;
@@ -42,6 +43,7 @@ const Navigation = ({ NAV_DATA }) => {
         <FontAwesomeIcon className="nav__icons-item" icon={faInstagram} />
         <FontAwesomeIcon className="nav__icons-item" icon={faLinkedinIn} />
       </div>
+      <div className="nav__last"></div>
     </div>
   );
 };
