@@ -161,11 +161,11 @@ const NAV_DATA = [
         url: "https://www.friscoisd.org/employment/new-hires",
       },
       {
-        name: "Teachers &amp; Staff",
+        name: "Teachers & Staff",
         url: "https://www.friscoisd.org/employment/application-for-professional-teachers-and-staff",
       },
       {
-        name: "Paraprofessionals &amp; Auxiliary Employees",
+        name: "Paraprofessionals & Auxiliary Employees",
         url: "https://www.friscoisd.org/employment/operations-clerical-and-paraprofessional-positions",
       },
       {
