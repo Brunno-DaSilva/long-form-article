@@ -56,10 +56,11 @@ a {
 }
 
 .Modal .ABOUT {
-  min-width: 600px;
+  min-width: 650px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 21px;
+  margin-bottom: 0.5rem;
 }
 
 .ABOUT div p a {
@@ -67,26 +68,22 @@ a {
   color: var(--dark-blue);
   line-height: 1.5rem;
   font-size: 1.1rem;
+  transition: ease-in-out 0.3s;
+}
+.ABOUT div p a:hover {
+  text-align: center;
+  color: var(--orange);
 }
 
-.ABOUT div p:after {
-  background: none repeat scroll 0 0 transparent;
-  top: 100%;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 3px;
-  border-radius: 0.5rem;
-  left: 50%;
-  position: absolute;
-  background: var(--yellow);
-  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-  z-index: 99;
+.btn__about {
+  background-color: #184366;
+  color: var(--OffWhite) !important;
+  border: none;
+  padding: 0.5rem 4rem;
+  margin: 2rem 0;
+  text-transform: uppercase;
 }
 
-.ABOUT div p:hover:after {
-  width: 100%;
-  left: 0;
+.btn__about:hover {
+  border: none !important;
 }

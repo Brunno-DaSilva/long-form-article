@@ -40,17 +40,19 @@ const Modal = ({
           <FontAwesomeIcon icon={faTimes} />
         </button>
         <h3>{title}</h3>
-        <div className={title} ref={menuRef}>
+        <d iv className={title} ref={menuRef}>
           {items.map((data) => {
             return (
               <div id={otherSectionProps.id}>
                 <p>
-                  <a href={data.url}>{data.name}</a>
+                  <a className={data.CSS_class} href={data.url}>
+                    {data.name}
+                  </a>
                 </p>
               </div>
             );
           })}
-        </div>
+        </d>
       </div>
     </>
   );

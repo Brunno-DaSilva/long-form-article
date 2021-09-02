@@ -97,24 +97,24 @@ const NAV_DATA = [
         url: "https://www.friscoisd.org/about/strategic-planning/home",
       },
       {
-        name: "Parents",
-        url: "https://www.friscoisd.org/parents",
-        class: "btn__about",
+        name: "Staff",
+        url: "https://portal.friscoisd.org/LoginPolicy.jsp",
       },
+
       {
         name: "Students",
         url: "https://www.friscoisd.org/students",
-        class: "btn__about",
+        CSS_class: "btn__about",
       },
       {
         name: "Community",
         url: "https://www.friscoisd.org/community/community",
-        class: "btn__about",
+        CSS_class: "btn__about",
       },
       {
-        name: "Staff",
-        url: "https://portal.friscoisd.org/LoginPolicy.jsp",
-        class: "btn__about",
+        name: "Parents",
+        url: "https://www.friscoisd.org/parents",
+        CSS_class: "btn__about",
       },
     ],
     mainURL: "",
