@@ -51,8 +51,9 @@ a {
 }
 .NEWS div p a {
   color: var(--dark-blue);
-  line-height: 1.5rem;
+  line-height: 2rem;
   font-size: 1.1rem;
+  transition: ease-in-out 0.3s;
 }
 
 .Modal .ABOUT {
@@ -70,7 +71,8 @@ a {
   font-size: 1.1rem;
   transition: ease-in-out 0.3s;
 }
-.ABOUT div p a:hover {
+.ABOUT div p a:hover,
+.NEWS div p a:hover {
   text-align: center;
   color: var(--orange);
 }
