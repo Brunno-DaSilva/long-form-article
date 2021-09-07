@@ -4,9 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - [ ] Create a nav onClick display a Modal
 
-  - The modal will be reusable.
-  - It will receive props that will display the Nav items for each navigation (btn) trigger.
-  - Close once is clicked off boundaries.
+  - [x] The modal will be reusable.
+  - [x] It will receive props that will display the Nav items for each navigation (btn) trigger.
+  - [x] Close once is clicked off boundaries.
+  - [x] Add checkDown and UP icons to clickable items
+  - [ ] Style all Nav items accordingly
+
+
 
 - [ ] Create the Article Section
 
