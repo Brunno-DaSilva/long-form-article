@@ -29,8 +29,8 @@ blockquote {
 }
 
 blockquote::before {
-  font-family: Arial;
-  content: "\201C";
+  font-family: Arial, Helvetica, sans-serif;
+content: "‘‘";
   color: var(--light-blue);
   font-size: 4em;
   position: absolute;
