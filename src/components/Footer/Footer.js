@@ -12,7 +12,8 @@ import {
 import './Footer.css'
 
 const Footer = () => {
-
+    const getYear = new Date().getFullYear();
+    const fullYear = `${getYear}`;
 
     return (
         <div className="Footer">
@@ -54,7 +55,7 @@ const Footer = () => {
 
             <div className="Footer__copyright">
                 <p tabIndex="0" ariaLabel="Copyright Frisco Independent School">
-                    ©<span id="getDate">2020</span> 
+                    ©<span id="getDate">{fullYear}</span> 
                     Frisco Independent School District
                 </p>
                 <a
@@ -70,7 +71,7 @@ const Footer = () => {
                     href="http://www.friscoisd.org/about/resources-and-information/contact-frisco-isd"
                     >Contact Us
                 </a>
-                
+
                 <a
                     ariaLabel="Open Accessibility Page"
                     className="animation__underline"
