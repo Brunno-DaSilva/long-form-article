@@ -65,7 +65,9 @@
   font-size: 1.1rem;
   color: var(--OffWhite);
   text-decoration: none;
+  transition: ease-in-out 0.3s;
 }
+
 
 .Footer .Footer__icons-address{
   margin: 0 0.5rem;
@@ -90,7 +92,8 @@
 
 }
 
-.Footer .Footer__copyright a:hover {
+.Footer .Footer__copyright a:hover, .Footer .Footer__address p a:hover {
+  cursor: pointer;
   color: var(--yellow);
   
 }
