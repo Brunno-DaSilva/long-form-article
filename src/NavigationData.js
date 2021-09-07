@@ -85,7 +85,7 @@ const NAV_DATA = [
         url: "https://www.friscoisd.org/about/new-to-frisco-isd",
       },
       {
-        name: "Public Information Requests",
+        name: "Public Information",
         url: "https://www.friscoisd.org/about/resources-and-information/open-records-requests",
       },
       {
@@ -99,6 +99,7 @@ const NAV_DATA = [
       {
         name: "Staff",
         url: "https://portal.friscoisd.org/LoginPolicy.jsp",
+        CSS_class: "staff",
       },
 
       {
@@ -165,7 +166,7 @@ const NAV_DATA = [
         url: "https://www.friscoisd.org/employment/application-for-professional-teachers-and-staff",
       },
       {
-        name: "Paraprofessionals & Auxiliary Employees",
+        name: "PARA & Auxiliary Employees",
         url: "https://www.friscoisd.org/employment/operations-clerical-and-paraprofessional-positions",
       },
       {
