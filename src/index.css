@@ -26,4 +26,5 @@ body {
   width: 100vw;
   position: relative;
   box-sizing: border-box !important;
+  overflow-x: hidden;
 }
