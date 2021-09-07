@@ -32,10 +32,20 @@ const ARTICLE_DATA = [
         thumbnail:
           "https://res.cloudinary.com/duprwuo4j/image/upload/c_thumb,w_200,g_face/v1598505291/neonbrand-zFSo6bnZJTw-unsplash_1_q3dvgg.jpg",
         thumbnailLabel: "Photo by Bruno DaSilva",
-        originalHeight: 427,
+        originalHeight: 480,
         originalWidth: 640,
       },
       {
+        originalTitle: "Love to learn",
+        description: "Love to learn description ",
+        original:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1598502460/pencil_sl098k.jpg",
+        thumbnail:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/c_thumb,w_200,g_face/v1598502460/pencil_sl098k.jpg",
+        thumbnailLabel: "Photo by Bruno DaSilva",
+        originalHeight: 480,
+        originalWidth: 640,
+      },{
         originalTitle: "Love to learn",
         description: "Love to learn description ",
         original:
@@ -43,7 +53,7 @@ const ARTICLE_DATA = [
         thumbnail:
           "https://res.cloudinary.com/duprwuo4j/image/upload/c_thumb,w_200,g_face/v1598505085/tim-mossholder-WE_Kv_ZB1l0-unsplash_1_x8iqrj.jpg",
         thumbnailLabel: "Photo by Bruno DaSilva",
-        originalHeight: 427,
+        originalHeight: 480,
         originalWidth: 640,
       },
       {
@@ -54,7 +64,7 @@ const ARTICLE_DATA = [
         thumbnail:
           "https://res.cloudinary.com/duprwuo4j/image/upload/c_thumb,w_200,g_face/v1598505021/ben-mullins-je240KkJIuA-unsplash_1_svdhzv.jpg",
         thumbnailLabel: "Photo by Bruno DaSilva",
-        originalHeight: 427,
+        originalHeight: 480,
         originalWidth: 640,
       },
       {
@@ -65,7 +75,7 @@ const ARTICLE_DATA = [
         thumbnail:
           "https://res.cloudinary.com/duprwuo4j/image/upload/c_thumb,w_200,g_face/v1598505164/deleece-cook-zzjLGF_6dx4-unsplash_1_hjkqeh.jpg",
         thumbnailLabel: "Photo by Bruno DaSilva",
-        originalHeight: 427,
+        originalHeight: 480,
         originalWidth: 640,
       },
     ],

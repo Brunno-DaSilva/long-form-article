@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navigation from "./components/Navigation/Navigation";
 import MainArticleForm from "./components/MainArticleForm/MainArticleForm";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 import NAV_DATA from "./NavigationData";
@@ -19,6 +20,7 @@ class App extends Component {
       <div className="App">
         <Navigation NAV_DATA={NAV_DATA} />
         <MainArticleForm ARTICLE_DATA={ARTICLE_DATA} />
+        <Footer />
       </div>
     );
   }

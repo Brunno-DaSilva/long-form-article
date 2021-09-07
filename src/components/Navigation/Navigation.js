@@ -35,14 +35,18 @@ const Navigation = ({ NAV_DATA }) => {
           return <NavItems key={id} {...otherSectionProps} />;
         })}
       </div>
-      <div className="nav__icons">
+      <div  className="nav__icons" 
+            ariaLabel="Clickable social media icons">
+
         <FontAwesomeIcon className="nav__icons-item" icon={faSearch} />
         <FontAwesomeIcon className="nav__icons-item" icon={faTwitter} />
         <FontAwesomeIcon className="nav__icons-item" icon={faFacebook} />
         <FontAwesomeIcon className="nav__icons-item" icon={faYoutube} />
         <FontAwesomeIcon className="nav__icons-item" icon={faInstagram} />
         <FontAwesomeIcon className="nav__icons-item" icon={faLinkedinIn} />
+        
       </div>
+
       <div className="nav__last"></div>
     </div>
   );
