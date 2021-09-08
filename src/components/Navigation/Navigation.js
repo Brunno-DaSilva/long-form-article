@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
 import NavItems from "../NavItems/NavItems";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch, faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { ReactComponent as FLogo } from "../../img/fisd-logo-white-rgb.svg";
 import { ReactComponent as FLogoSM } from "../../img/Fsun_SM.svg";
 import { ReactComponent as FLogoMD } from "../../img/FsunFISD_MD.svg";
-
 import {
   faFacebook,
   faYoutube,
@@ -40,7 +39,11 @@ function useWindowSize() {
 const Navigation = ({ NAV_DATA }) => {
   const [height, width] = useWindowSize();
 
-  console.log(`height ${height}, width ${width}`);
+  const [searchOpen, setSearchOpen] = useState(false);
+
+  const onClickSearchOpener = () => {
+    setSearchOpen((prevState) => !prevState);
+  };
 
   return (
     <div className="Navigation">
@@ -63,7 +66,13 @@ const Navigation = ({ NAV_DATA }) => {
         })}
       </div>
       <div className="nav__icons" ariaLabel="Clickable social media icons">
-        <FontAwesomeIcon className="nav__icons-item" icon={faSearch} />
+        <div>
+          {searchOpen ? (
+            <FontAwesomeIcon className="nav__icons-item" icon={faTimes} />
+          ) : (
+            <FontAwesomeIcon className="nav__icons-item" icon={faSearch} />
+          )}
+        </div>
         <FontAwesomeIcon className="nav__icons-item" icon={faTwitter} />
         <FontAwesomeIcon className="nav__icons-item" icon={faFacebook} />
         <FontAwesomeIcon className="nav__icons-item" icon={faYoutube} />
