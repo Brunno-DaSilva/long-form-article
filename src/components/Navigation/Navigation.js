@@ -66,7 +66,7 @@ const Navigation = ({ NAV_DATA }) => {
         })}
       </div>
       <div className="nav__icons" ariaLabel="Clickable social media icons">
-        <div>
+        <div className="nav__search">
           {searchOpen ? (
             <div>
               <input

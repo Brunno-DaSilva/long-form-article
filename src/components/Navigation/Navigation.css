@@ -76,10 +76,11 @@ img {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  position: relative;
 }
 
 .nav__icons-item {
-  margin: 0 0.8rem;
+  margin: 0 0.5rem;
   color: var(--OffWhite);
 }
 .nav__icons .nav__icons-item {
@@ -97,4 +98,34 @@ img {
 }
 .nav__last {
   grid-column: 10/12;
+}
+
+.Navigation .nav__search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navigation .input {
+  border-radius: 20px;
+  width: 68vw !important;
+  padding: 0 50px !important;
+  margin-right: 10px !important;
+  color: #1e5583;
+  font-size: 1rem;
+  height: 40px;
+  position: absolute;
+  left: -377.5%;
+  top: -22%;
+  z-index: 500;
+  transition: ease-in-out 0.4s;
+}
+
+.Navigation .input::placeholder {
+  color: #858484;
+  font-size: 1rem;
+}
+
+.Navigation .nav__search .nav__icons-item {
+  font-size: 1.2rem;
 }
