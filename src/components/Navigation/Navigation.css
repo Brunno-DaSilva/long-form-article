@@ -100,7 +100,7 @@ img {
   grid-column: 10/12;
 }
 
-.Navigation .input {
+.input {
   border-radius: 20px;
   width: 68.5vw !important;
   padding: 0 50px !important;
@@ -132,4 +132,33 @@ img {
 .Navigation .nav__search .nav__icons-color {
   color: #fd6d48;
   margin-right: 0.5rem !important;
+}
+
+.suggestion {
+  height: 100vh;
+  width: 100%;
+  background-color: hsla(206, 89%, 15%, 0.733);
+  position: absolute;
+  top: 65px;
+  left: 0;
+  z-index: 99;
+}
+
+.search-items {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 71rem;
+  min-height: 400px;
+  position: absolute;
+  z-index: 100;
+  top: 60px;
+  left: 9%;
+  background-color: white;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }

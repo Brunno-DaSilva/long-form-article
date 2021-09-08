@@ -99,6 +99,19 @@ const Navigation = ({ NAV_DATA }) => {
         </div>
         <div className="nav__last"></div>
       </div>
+      {searchOpen && (
+        <>
+          <div className="suggestion"></div>
+          <div className="search-items">
+            <h3>It is open</h3>
+            <ul>
+              <li>One </li>
+              <li>Two </li>
+              <li>Three </li>
+            </ul>
+          </div>
+        </>
+      )}
     </>
   );
 };
