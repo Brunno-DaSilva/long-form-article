@@ -46,59 +46,60 @@ const Navigation = ({ NAV_DATA }) => {
   };
 
   return (
-    <div className="Navigation">
-      <div className="nav__zero"></div>
-      <div className="nav__logo">
-        <FLogo />
-      </div>
-      <div className="nav__container">
-        {NAV_DATA.slice(0, 2).map(({ id, ...otherSectionProps }) => {
-          return <NavItems key={id} {...otherSectionProps} />;
-        })}
-        <button>
-          <a className="nav__a" href="https://www.friscoisd.org/departments">
-            DEPARTMENTS
-          </a>
-        </button>
+    <>
+      <div className="Navigation">
+        <div className="nav__zero"></div>
+        <div className="nav__logo">
+          <FLogo />
+        </div>
+        <div className="nav__container">
+          {NAV_DATA.slice(0, 2).map(({ id, ...otherSectionProps }) => {
+            return <NavItems key={id} {...otherSectionProps} />;
+          })}
+          <button>
+            <a className="nav__a" href="https://www.friscoisd.org/departments">
+              DEPARTMENTS
+            </a>
+          </button>
 
-        {NAV_DATA.slice(-2).map(({ id, ...otherSectionProps }) => {
-          return <NavItems key={id} {...otherSectionProps} />;
-        })}
-      </div>
-      <div className="nav__icons" ariaLabel="Clickable social media icons">
-        <div className="nav__search">
-          {searchOpen ? (
-            <div>
-              <input
-                tabIndex="1"
-                type="text"
-                class="input"
-                id="input"
-                placeHolder="Search Here: FISD news, calendar, COVID-19 ..."
-              />
+          {NAV_DATA.slice(-2).map(({ id, ...otherSectionProps }) => {
+            return <NavItems key={id} {...otherSectionProps} />;
+          })}
+        </div>
+        <div className="nav__icons" ariaLabel="Clickable social media icons">
+          <div className="nav__search">
+            {searchOpen ? (
+              <div>
+                <input
+                  tabIndex="1"
+                  type="text"
+                  class="input"
+                  id="input"
+                  placeHolder="Search Here: FISD news, calendar, COVID-19 ..."
+                />
+                <FontAwesomeIcon
+                  onClick={onClickSearchOpener}
+                  className="nav__icons-item nav__icons-color"
+                  icon={faTimes}
+                />
+              </div>
+            ) : (
               <FontAwesomeIcon
                 onClick={onClickSearchOpener}
                 className="nav__icons-item"
-                icon={faTimes}
+                icon={faSearch}
               />
-            </div>
-          ) : (
-            <FontAwesomeIcon
-              onClick={onClickSearchOpener}
-              className="nav__icons-item"
-              icon={faSearch}
-            />
-          )}
+            )}
+          </div>
+          <FontAwesomeIcon className="nav__icons-item" icon={faTwitter} />
+          <FontAwesomeIcon className="nav__icons-item" icon={faFacebook} />
+          <FontAwesomeIcon className="nav__icons-item" icon={faYoutube} />
+          <FontAwesomeIcon className="nav__icons-item" icon={faInstagram} />
+          <FontAwesomeIcon className="nav__icons-item" icon={faLinkedinIn} />
         </div>
-        <FontAwesomeIcon className="nav__icons-item" icon={faTwitter} />
-        <FontAwesomeIcon className="nav__icons-item" icon={faFacebook} />
-        <FontAwesomeIcon className="nav__icons-item" icon={faYoutube} />
-        <FontAwesomeIcon className="nav__icons-item" icon={faInstagram} />
-        <FontAwesomeIcon className="nav__icons-item" icon={faLinkedinIn} />
+        <div className="nav__last"></div>
       </div>
-
-      <div className="nav__last"></div>
-    </div>
+    </>
   );
 };
 
