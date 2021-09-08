@@ -68,9 +68,26 @@ const Navigation = ({ NAV_DATA }) => {
       <div className="nav__icons" ariaLabel="Clickable social media icons">
         <div>
           {searchOpen ? (
-            <FontAwesomeIcon className="nav__icons-item" icon={faTimes} />
+            <div>
+              <input
+                tabIndex="1"
+                type="text"
+                class="input"
+                id="input"
+                placeHolder="Search Here: FISD news, calendar, COVID-19 ..."
+              />
+              <FontAwesomeIcon
+                onClick={onClickSearchOpener}
+                className="nav__icons-item"
+                icon={faTimes}
+              />
+            </div>
           ) : (
-            <FontAwesomeIcon className="nav__icons-item" icon={faSearch} />
+            <FontAwesomeIcon
+              onClick={onClickSearchOpener}
+              className="nav__icons-item"
+              icon={faSearch}
+            />
           )}
         </div>
         <FontAwesomeIcon className="nav__icons-item" icon={faTwitter} />
