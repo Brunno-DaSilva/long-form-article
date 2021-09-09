@@ -50,7 +50,9 @@ const Navigation = ({ NAV_DATA }) => {
       <div className="Navigation">
         <div className="nav__zero"></div>
         <div className="nav__logo">
-          <FLogo />
+          <a href="https://www.friscoisd.org/">
+            <FLogo />
+          </a>
         </div>
         <div className="nav__container">
           {NAV_DATA.slice(0, 2).map(({ id, ...otherSectionProps }) => {

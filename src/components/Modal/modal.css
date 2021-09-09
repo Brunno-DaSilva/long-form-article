@@ -48,6 +48,7 @@ a {
 .Modal .NEWS {
   display: flex;
   flex-direction: column;
+  padding: 0.5rem 1rem;
 }
 .NEWS div p a {
   color: var(--dark-blue);
@@ -63,7 +64,6 @@ a {
   gap: 21px;
   margin-bottom: 0.5rem;
   padding: 0.5rem 1rem;
-
 }
 
 .ABOUT div p a {
@@ -74,8 +74,8 @@ a {
   transition: ease-in-out 0.3s;
 }
 
-
-.btn__about, .staff {
+.btn__about,
+.staff {
   background-color: #184366;
   color: var(--OffWhite) !important;
   border: none;
@@ -83,17 +83,17 @@ a {
   margin: 2rem 0;
   text-transform: uppercase;
 }
-.staff{
+.staff {
   padding: 0.5rem 4.75rem;
 }
 
-.btn__about:hover, .staff:hover {
+.btn__about:hover,
+.staff:hover {
   border: none !important;
   -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
     0 10px 10px rgba(0, 0, 0, 0.22);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-
 
 .Modal .EMPLOYMENT {
   display: grid;
@@ -111,9 +111,9 @@ a {
 }
 
 .ABOUT div p a:hover,
-.NEWS div p a:hover, 
-.SCHOOL div p a:hover, 
-.EMPLOYMENT div p a:hover  {
+.NEWS div p a:hover,
+.SCHOOL div p a:hover,
+.EMPLOYMENT div p a:hover {
   text-align: center;
   color: var(--orange);
 }

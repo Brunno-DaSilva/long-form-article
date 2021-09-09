@@ -26,6 +26,7 @@ button {
 .nav__a {
   color: var(--OffWhite);
   text-decoration: none;
+  margin: 0 1rem;
 }
 
 .nav__a:after {
@@ -102,14 +103,14 @@ img {
 
 .input {
   border-radius: 20px;
-  width: 64vw !important;
+  width: 65vw !important;
   padding: 0 50px !important;
   margin-right: 10px !important;
   color: #1e5583;
   font-size: 1rem;
   height: 40px;
   position: absolute;
-  left: -426%;
+  left: -436.5%;
   top: -22%;
   z-index: 500;
   transition: ease-in-out 0.4s;
