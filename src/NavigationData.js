@@ -138,8 +138,38 @@ const NAV_DATA = [
     selected: false,
     items: [
       {
-        name: "Departments",
-        url: "epartments",
+        name: "Elementaryhjshshs",
+        subItems: [
+          {
+            name: "Allen Elementary",
+            url: "http://schools.friscoisd.org/allen",
+          },
+          {
+            name: "Anderson Elementary",
+            url: "http://schools.friscoisd.org/anderson",
+          },
+          {
+            name: "Ashley Elementary",
+            url: "http://schools.friscoisd.org/ashley",
+          },
+        ],
+      },
+      {
+        name: "Middle",
+        subItems: [
+          {
+            name: "Allen Elementary",
+            url: "http://schools.friscoisd.org/allen",
+          },
+          {
+            name: "Anderson Elementary",
+            url: "http://schools.friscoisd.org/anderson",
+          },
+          {
+            name: "Ashley Elementary",
+            url: "http://schools.friscoisd.org/ashley",
+          },
+        ],
       },
     ],
     mainURL: "https://www.friscoisd.org/departments",
