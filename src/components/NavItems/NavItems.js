@@ -5,7 +5,7 @@ import Modal from "../Modal/Modal";
 
 import "./navItems.css";
 
-const NavItems = ({ title, items, ...otherSectionProps }) => {
+const NavItems = ({ title, items, SCHOOL_DATA, ...otherSectionProps }) => {
   const [openModal, setOpenModal] = React.useState(false);
 
   const openModalHandler = () => {
@@ -38,6 +38,7 @@ const NavItems = ({ title, items, ...otherSectionProps }) => {
             {...otherSectionProps}
             openModalHandler={openModalHandler}
             setOpenModal={setOpenModal}
+            SCHOOL_DATA={SCHOOL_DATA}
           />
         )}
       </div>

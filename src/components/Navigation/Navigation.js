@@ -36,7 +36,7 @@ function useWindowSize() {
   return windowSize;
 }
 
-const Navigation = ({ NAV_DATA }) => {
+const Navigation = ({ NAV_DATA, SCHOOL_DATA }) => {
   const [height, width] = useWindowSize();
 
   const [searchOpen, setSearchOpen] = useState(false);
@@ -65,7 +65,13 @@ const Navigation = ({ NAV_DATA }) => {
           </button>
 
           {NAV_DATA.slice(-2).map(({ id, ...otherSectionProps }) => {
-            return <NavItems key={id} {...otherSectionProps} />;
+            return (
+              <NavItems
+                SCHOOL_DATA={SCHOOL_DATA}
+                key={id}
+                {...otherSectionProps}
+              />
+            );
           })}
         </div>
         <div className="nav__icons" ariaLabel="Clickable social media icons">

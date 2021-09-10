@@ -138,7 +138,7 @@ const NAV_DATA = [
     selected: false,
     items: [
       {
-        name: "Elementaryhjshshs",
+        name: "Elementary",
         subItems: [
           {
             name: "Allen Elementary",
@@ -158,15 +158,32 @@ const NAV_DATA = [
         name: "Middle",
         subItems: [
           {
-            name: "Allen Elementary",
+            name: "Allen Middle",
             url: "http://schools.friscoisd.org/allen",
           },
           {
-            name: "Anderson Elementary",
+            name: "Anderson Middle",
             url: "http://schools.friscoisd.org/anderson",
           },
           {
-            name: "Ashley Elementary",
+            name: "Ashley Middle",
+            url: "http://schools.friscoisd.org/ashley",
+          },
+        ],
+      },
+      {
+        name: "High",
+        subItems: [
+          {
+            name: "Allen High",
+            url: "http://schools.friscoisd.org/allen",
+          },
+          {
+            name: "Anderson High",
+            url: "http://schools.friscoisd.org/anderson",
+          },
+          {
+            name: "Ashley High",
             url: "http://schools.friscoisd.org/ashley",
           },
         ],
