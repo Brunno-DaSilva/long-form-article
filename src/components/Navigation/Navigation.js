@@ -6,11 +6,11 @@ import { ReactComponent as FLogo } from "../../img/fisd-logo-white-rgb.svg";
 import { ReactComponent as FLogoSM } from "../../img/Fsun_SM.svg";
 import { ReactComponent as FLogoMD } from "../../img/FsunFISD_MD.svg";
 import {
-  faFacebook,
   faYoutube,
   faTwitter,
   faInstagram,
   faLinkedinIn,
+  faFacebookF,
 } from "@fortawesome/free-brands-svg-icons";
 
 import "./Navigation.css";
@@ -100,7 +100,7 @@ const Navigation = ({ NAV_DATA, SCHOOL_DATA }) => {
             )}
           </div>
           <FontAwesomeIcon className="nav__icons-item" icon={faTwitter} />
-          <FontAwesomeIcon className="nav__icons-item" icon={faFacebook} />
+          <FontAwesomeIcon className="nav__icons-item" icon={faFacebookF} />
           <FontAwesomeIcon className="nav__icons-item" icon={faYoutube} />
           <FontAwesomeIcon className="nav__icons-item" icon={faInstagram} />
           <FontAwesomeIcon className="nav__icons-item" icon={faLinkedinIn} />
