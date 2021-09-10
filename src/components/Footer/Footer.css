@@ -77,7 +77,6 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  border: 1px solid red;
 }
 .Footer .Footer__copyright a,
 .Footer .Footer__copyright p {
@@ -87,7 +86,6 @@
   padding: 1rem 0.5rem;
   text-transform: uppercase;
   transition: ease-in-out 0.3s;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
