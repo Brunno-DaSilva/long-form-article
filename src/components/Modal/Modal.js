@@ -71,20 +71,20 @@ const Modal = ({
                       {data.name}
                     </button>
                   </div>
-                  {openSchool && (
-                    <SchoolModal
-                      items={items}
-                      {...otherSectionProps}
-                      setOpenSchool={setOpenSchool}
-                      openSchoolOnClick={openSchoolOnClick}
-                      SCHOOL_DATA={SCHOOL_DATA}
-                    />
-                  )}
                 </div>
               );
             }
           })}
         </div>
+        {openSchool && (
+          <SchoolModal
+            items={items}
+            {...otherSectionProps}
+            setOpenSchool={setOpenSchool}
+            openSchoolOnClick={openSchoolOnClick}
+            SCHOOL_DATA={SCHOOL_DATA}
+          />
+        )}
       </div>
     </>
   );
