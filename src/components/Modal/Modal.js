@@ -1,4 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Menu, MenuItem, MenuButton } from "@szhsin/react-menu";
+import "@szhsin/react-menu/dist/index.css";
+
 import SchoolModal from "../SchoolModal/SchoolModal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
@@ -63,13 +66,14 @@ const Modal = ({
               return (
                 <div className="Modal__school" id={otherSectionProps.id}>
                   <div className="Modal__tab">
-                    <button
-                      onClick={openSchoolOnClick}
-                      className="Modal__tab-btn"
-                      type="button"
+                    <Menu
+                      menuButton={<MenuButton> {data.name}</MenuButton>}
+                      transition
                     >
-                      {data.name}
-                    </button>
+                      {data.subItems.map((subMenu) => {
+                        return <MenuItem>{subMenu.name}</MenuItem>;
+                      })}
+                    </Menu>
                   </div>
                 </div>
               );
