@@ -71,7 +71,26 @@ const Modal = ({
                       transition
                     >
                       {data.subItems.map((subMenu) => {
-                        return <MenuItem>{subMenu.name}</MenuItem>;
+                        return (
+                          <MenuItem
+                            styles={{
+                              cursor: "pointer",
+                              color: "#184366",
+                              backgroundColor: "transparent",
+                              boxShadow: "none",
+                              hover: {
+                                color: "#e95b37",
+                                backgroundColor: "transparent",
+                              },
+                              active: {
+                                backgroundColor: "transparent",
+                                color: "#e95b37",
+                              },
+                            }}
+                          >
+                            {subMenu.name}
+                          </MenuItem>
+                        );
                       })}
                     </Menu>
                   </div>
