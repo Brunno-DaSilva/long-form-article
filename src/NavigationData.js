@@ -318,6 +318,99 @@ const NAV_DATA = [
             url: "http://schools.friscoisd.org/cobb",
           },
           {
+            name: "Fowler Middle School",
+            url: "http://schools.friscoisd.org/fowler",
+          },
+          {
+            name: "Griffin Middle School",
+            url: "http://schools.friscoisd.org/griffin",
+          },
+          {
+            name: "Hunt Middle School",
+            url: "http://schools.friscoisd.org/hunt",
+          },
+          {
+            name: "Lawler Middle School",
+            url: "http://schools.friscoisd.org/lawler",
+          },
+          {
+            name: "Maus Middle School",
+            url: "http://schools.friscoisd.org/maus",
+          },
+          {
+            name: "Nelson Middle School",
+            url: "http://schools.friscoisd.org/nelson",
+          },
+          {
+            name: "Pearson Middle School",
+            url: "http://schools.friscoisd.org/pearson",
+          },
+          {
+            name: "Pioneer Heritage Middle School",
+            url: "http://schools.friscoisd.org/pioneer",
+          },
+          {
+            name: "Roach Middle School",
+            url: "http://schools.friscoisd.org/roach",
+          },
+          {
+            name: "Scoggins Middle School",
+            url: "http://schools.friscoisd.org/scoggins",
+          },
+          {
+            name: "Stafford Middle School",
+            url: "http://schools.friscoisd.org/stafford",
+          },
+          {
+            name: "Staley Middle School",
+            url: "http://schools.friscoisd.org/staley",
+          },
+          {
+            name: "Trent Middle School",
+            url: "http://schools.friscoisd.org/trent",
+          },
+          {
+            name: "Vandeventer Middle School",
+            url: "http://schools.friscoisd.org/vandeventer",
+          },
+          {
+            name: "Wester Middle School",
+            url: "http://schools.friscoisd.org/wester",
+          },
+        ],
+      },
+      {
+        name: "High",
+        subItems: [
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
             name: "Ashley",
             url: "hbaba",
           },
@@ -372,19 +465,87 @@ const NAV_DATA = [
         ],
       },
       {
-        name: "High",
+        name: "Program Centers",
         subItems: [
           {
-            name: "Allen High",
-            url: "http://schools.friscoisd.org/allen",
+            name: "Ashley",
+            url: "hbaba",
           },
           {
-            name: "Anderson High",
-            url: "http://schools.friscoisd.org/anderson",
+            name: "Ashley",
+            url: "hbaba",
           },
           {
-            name: "Ashley High",
-            url: "http://schools.friscoisd.org/ashley",
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
           },
         ],
       },
