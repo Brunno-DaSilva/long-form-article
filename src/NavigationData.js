@@ -152,22 +152,222 @@ const NAV_DATA = [
             name: "Ashley Elementary",
             url: "http://schools.friscoisd.org/ashley",
           },
+          {
+            name: "Bledsoe Elementary",
+            url: "http://schools.friscoisd.org/bledsoe",
+          },
+          {
+            name: "Boals Elementary",
+            url: "http://schools.friscoisd.org/boals",
+          },
+          {
+            name: "Borchardt Elementary",
+            url: "http://schools.friscoisd.org/borchardt",
+          },
+          {
+            name: "Bright Academy",
+            url: "http://schools.friscoisd.org/bright",
+          },
+          {
+            name: "Carroll Elementary",
+            url: "http://schools.friscoisd.org/carroll",
+          },
+          {
+            name: "Christie Elementary",
+            url: "http://schools.friscoisd.org/christie",
+          },
+          {
+            name: "Comstock Elementary",
+            url: "http://schools.friscoisd.org/comstock",
+          },
+          {
+            name: "Corbell Elementary",
+            url: "http://schools.friscoisd.org/corbell",
+          },
+          {
+            name: "Elliott Elementary",
+            url: "http://schools.friscoisd.org/elliott",
+          },
+          {
+            name: "Fisher Elementary",
+            url: "http://schools.friscoisd.org/fisher",
+          },
+          {
+            name: "Gunstream Elementary",
+            url: "http://schools.friscoisd.org/gunstream",
+          },
+          {
+            name: "Hosp Elementary",
+            url: "http://schools.friscoisd.org/hosp",
+          },
+          {
+            name: "Isbell Elementary",
+            url: "http://schools.friscoisd.org/isbell",
+          },
+          {
+            name: "Liscano Elementary",
+            url: "http://schools.friscoisd.org/liscano",
+          },
+          {
+            name: "McSpedden Elementary",
+            url: "http://schools.friscoisd.org/mcspedden",
+          },
+          {
+            name: "Miller Elementary",
+            url: "http://schools.friscoisd.org/miller",
+          },
+          {
+            name: "Mooneyham Elementary",
+            url: "http://schools.friscoisd.org/mooneyham",
+          },
+          {
+            name: "Newman Elementary",
+            url: "http://schools.friscoisd.org/newman",
+          },
+          {
+            name: "Nichols Elementary",
+            url: "http://schools.friscoisd.org/nichols",
+          },
+          {
+            name: "Norris Elementary",
+            url: "http://schools.friscoisd.org/norris",
+          },
+          {
+            name: "Ogle Elementary",
+            url: "http://schools.friscoisd.org/ogle",
+          },
+          {
+            name: "Phillips Elementary",
+            url: "http://schools.friscoisd.org/phillips",
+          },
+          {
+            name: "Pink Elementary",
+            url: "http://schools.friscoisd.org/pink",
+          },
+          {
+            name: "Purefoy Elementary",
+            url: "http://schools.friscoisd.org/purefoy",
+          },
+          {
+            name: "Riddle Elementary",
+            url: "http://schools.friscoisd.org/riddle",
+          },
+          {
+            name: "Robertson Elementary",
+            url: "http://schools.friscoisd.org/robertson",
+          },
+          {
+            name: "Rogers Elementary",
+            url: "http://schools.friscoisd.org/rogers",
+          },
+          {
+            name: "Sem Elementary",
+            url: "http://schools.friscoisd.org/sem",
+          },
+          {
+            name: "Scott Elementary",
+            url: "http://schools.friscoisd.org/scott",
+          },
+          {
+            name: "Shawnee Trail Elementary",
+            url: "http://schools.friscoisd.org/shawneetrail",
+          },
+          {
+            name: "Smith Elementary",
+            url: "http://schools.friscoisd.org/smith",
+          },
+          {
+            name: "Sonntag Elementary",
+            url: "http://schools.friscoisd.org/sonntag",
+          },
+          {
+            name: "Sparks Elementary",
+            url: "http://schools.friscoisd.org/sparks",
+          },
+          {
+            name: "Spears Elementary",
+            url: "http://schools.friscoisd.org/spears",
+          },
+          {
+            name: "Tadlock Elementary",
+            url: "http://schools.friscoisd.org/tadlock",
+          },
+          {
+            name: "Talley Elementary",
+            url: "http://schools.friscoisd.org/talley",
+          },
+          {
+            name: "Taylor Elementary",
+            url: "http://schools.friscoisd.org/taylor",
+          },
+          {
+            name: "Vaughn Elementary",
+            url: "http://schools.friscoisd.org/vaughn",
+          },
         ],
       },
       {
         name: "Middle",
         subItems: [
           {
-            name: "Allen Middle",
-            url: "http://schools.friscoisd.org/allen",
+            name: "Clark Middle School",
+            url: "http://schools.friscoisd.org/clark",
           },
           {
-            name: "Anderson Middle",
-            url: "http://schools.friscoisd.org/anderson",
+            name: "Cobb Middle School",
+            url: "http://schools.friscoisd.org/cobb",
           },
           {
-            name: "Ashley Middle",
-            url: "http://schools.friscoisd.org/ashley",
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
+          },
+          {
+            name: "Ashley",
+            url: "hbaba",
           },
         ],
       },
