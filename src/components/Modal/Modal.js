@@ -18,6 +18,7 @@ const Modal = ({
   // To close the menu I used the reference to the current event of the btn
   // outside of this event will cause the menu to close
   // clicking on other btn will cause the menu to close.
+
   let menuRef = useRef();
   const [openSchool, setOpenSchool] = React.useState(false);
 
@@ -35,7 +36,8 @@ const Modal = ({
     };
   });
 
-  const openSchoolOnClick = () => {
+  const openSchoolOnClick = (event) => {
+    event.stopPropagation();
     setOpenSchool((prevState) => !prevState);
   };
 
