@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import { Menu, MenuItem, MenuButton } from "@szhsin/react-menu";
 import "@szhsin/react-menu/dist/index.css";
 
-import SchoolModal from "../SchoolModal/SchoolModal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import "./modal.css";
@@ -20,7 +19,6 @@ const Modal = ({
   // clicking on other btn will cause the menu to close.
 
   let menuRef = useRef();
-  const [openSchool, setOpenSchool] = React.useState(false);
 
   useEffect(() => {
     let clickHandler = (event) => {
@@ -35,11 +33,6 @@ const Modal = ({
       document.removeEventListener("mousedown", clickHandler);
     };
   });
-
-  const openSchoolOnClick = (event) => {
-    event.stopPropagation();
-    setOpenSchool((prevState) => !prevState);
-  };
 
   return (
     <>
@@ -69,8 +62,26 @@ const Modal = ({
                 <div className="Modal__school" id={otherSectionProps.id}>
                   <div className="Modal__tab">
                     <Menu
-                      menuButton={<MenuButton> {data.name}</MenuButton>}
+                      menuButton={
+                        <MenuButton
+                          styles={{
+                            color: "#184366",
+                            fontWeight: "bold",
+                            marginBottom: "2rem",
+                          }}
+                        >
+                          {data.name}
+                        </MenuButton>
+                      }
                       transition
+                      menuStyles={{
+                        display: "grid",
+                        minWidth: "650px",
+                        gridTemplateColumns: "repeat(3, 1fr)",
+                        gap: "21px",
+                        marginBottom: "0.5rem",
+                        padding: "0.5rem 1rem",
+                      }}
                     >
                       {data.subItems.map((subMenu) => {
                         return (
@@ -90,7 +101,7 @@ const Modal = ({
                               },
                             }}
                           >
-                            {subMenu.name}
+                            <a href={subMenu.url}>{subMenu.name}</a>
                           </MenuItem>
                         );
                       })}
@@ -101,15 +112,6 @@ const Modal = ({
             }
           })}
         </div>
-        {openSchool && (
-          <SchoolModal
-            items={items}
-            {...otherSectionProps}
-            setOpenSchool={setOpenSchool}
-            openSchoolOnClick={openSchoolOnClick}
-            SCHOOL_DATA={SCHOOL_DATA}
-          />
-        )}
       </div>
     </>
   );
