@@ -10,6 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - [x] Add checkDown and UP icons to clickable items
   - [ ] Style all Nav items accordingly
   - [ ] Make mobile nav
+  - [ ] Search item
 
 - [x] Create the Article Section
 
