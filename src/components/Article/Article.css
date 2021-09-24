@@ -38,7 +38,6 @@
   line-height: 1;
   font-size: 59px !important;
   text-transform: capitalize;
-
 }
 .Article_body__subtitle {
   color: var(--subHeader);
@@ -57,7 +56,6 @@
   color: var(--textColor);
   align-items: flex-start;
   justify-content: flex-start;
-
 }
 .Article_header__info-item {
   color: var(--textColor) !important;

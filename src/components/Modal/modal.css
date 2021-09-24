@@ -111,6 +111,8 @@ a {
 }
 .Modal .SCHOOLS {
   display: flex;
+  min-height: 500px;
+  min-width: 600px;
 }
 
 .Modal .Modal__tab {

@@ -9,10 +9,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - [x] Close once is clicked off boundaries.
   - [x] Add checkDown and UP icons to clickable items
   - [ ] Style all Nav items accordingly
+  - [ ] Make mobile nav
 
-
-
-- [ ] Create the Article Section
+- [x] Create the Article Section
 
   - Landing Page with image or video (Maybe a conditional that would be prompted to select one or the other)
   - Article Text Section:
@@ -24,11 +23,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     - [x] Reading Time (E)
 
   - [x] Drop Cap for the first paragraph
-  - [ ] Image captions
+  - [x] Image captions
   - [x] Parallax Images
   - [x] Subheadings
-  - [ ] Photo Gallery
+  - [x] Photo Gallery
   - [x] Blockquote
-  - [ ] Embedded video
+  - [x] Embedded video
 
-- [ ] Create the Footer
+- [x] Create the Footer
