@@ -45,7 +45,8 @@ const ARTICLE_DATA = [
         thumbnailLabel: "Photo by Bruno DaSilva",
         originalHeight: 480,
         originalWidth: 640,
-      },{
+      },
+      {
         originalTitle: "Love to learn",
         description: "Love to learn description ",
         original:
