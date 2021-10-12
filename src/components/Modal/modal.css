@@ -111,7 +111,7 @@ a {
 }
 .Modal .SCHOOLS {
   display: flex;
-  min-height: 500px;
+  min-height: 100px;
   min-width: 600px;
 }
 
@@ -135,4 +135,13 @@ a {
 .EMPLOYMENT div p a:hover {
   text-align: center;
   color: var(--orange);
+}
+
+.subMenu__container {
+  display: grid;
+  min-width: 650px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 21px;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
 }

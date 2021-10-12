@@ -17,6 +17,10 @@ const Modal = ({
   // To close the menu I used the reference to the current event of the btn
   // outside of this event will cause the menu to close
   // clicking on other btn will cause the menu to close.
+  const [display, setDisplay] = useState("arrow");
+  const [align, setAlign] = useState("center");
+  const [position, setPosition] = useState("anchor");
+  const [viewScroll, setViewScroll] = useState("auto");
 
   let menuRef = useRef();
 
@@ -62,6 +66,12 @@ const Modal = ({
                 <div className="Modal__school" id={otherSectionProps.id}>
                   <div className="Modal__tab">
                     <Menu
+                      key={data}
+                      direction={"bottom"}
+                      align={align}
+                      position={position}
+                      viewScroll={viewScroll}
+                      arrow={display === "arrow"}
                       menuButton={
                         <MenuButton
                           styles={{
@@ -74,37 +84,32 @@ const Modal = ({
                         </MenuButton>
                       }
                       transition
-                      menuStyles={{
-                        display: "grid",
-                        minWidth: "650px",
-                        gridTemplateColumns: "repeat(3, 1fr)",
-                        gap: "21px",
-                        marginBottom: "0.5rem",
-                        padding: "0.5rem 1rem",
-                      }}
                     >
-                      {data.subItems.map((subMenu) => {
-                        return (
-                          <MenuItem
-                            styles={{
-                              cursor: "pointer",
-                              color: "#184366",
-                              backgroundColor: "transparent",
-                              boxShadow: "none",
-                              hover: {
-                                color: "#e95b37",
+                      <div className="subMenu__container">
+                        {data.subItems.map((subMenu) => {
+                          return (
+                            <MenuItem
+                              key={subMenu}
+                              styles={{
+                                cursor: "pointer",
+                                color: "#184366",
                                 backgroundColor: "transparent",
-                              },
-                              active: {
-                                backgroundColor: "transparent",
-                                color: "#e95b37",
-                              },
-                            }}
-                          >
-                            <a href={subMenu.url}>{subMenu.name}</a>
-                          </MenuItem>
-                        );
-                      })}
+                                boxShadow: "none",
+                                hover: {
+                                  color: "#e95b37",
+                                  backgroundColor: "transparent",
+                                },
+                                active: {
+                                  backgroundColor: "transparent",
+                                  color: "#e95b37",
+                                },
+                              }}
+                            >
+                              <a href={subMenu.url}>{subMenu.name}</a>
+                            </MenuItem>
+                          );
+                        })}
+                      </div>
                     </Menu>
                   </div>
                 </div>
