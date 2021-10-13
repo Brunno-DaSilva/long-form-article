@@ -383,36 +383,36 @@ const NAV_DATA = [
         name: "High",
         subItems: [
           {
-            name: "Ashley",
-            url: "hbaba",
+            name: "Centennial High School",
+            url: "http://schools.friscoisd.org/centennial",
           },
           {
-            name: "Ashley",
-            url: "hbaba",
+            name: "Emerson High School",
+            url: "http://schools.friscoisd.org/emerson",
           },
           {
-            name: "Ashley",
-            url: "hbaba",
+            name: "Frisco High School",
+            url: "http://schools.friscoisd.org/friscohigh",
           },
           {
-            name: "Ashley",
-            url: "hbaba",
+            name: "Heritage High School",
+            url: "http://schools.friscoisd.org/heritage",
           },
           {
-            name: "Ashley",
-            url: "hbaba",
+            name: "Independence High School",
+            url: "http://schools.friscoisd.org/independence",
           },
           {
-            name: "Ashley",
-            url: "hbaba",
+            name: "Lebanon Trail High School",
+            url: "http://schools.friscoisd.org/lebanontrail",
           },
           {
-            name: "Ashley",
-            url: "hbaba",
+            name: "Liberty High School",
+            url: "http://schools.friscoisd.org/liberty",
           },
           {
-            name: "Ashley",
-            url: "hbaba",
+            name: "http://schools.friscoisd.org/lonestar",
+            url: "Lone Star High School",
           },
           {
             name: "Ashley",
