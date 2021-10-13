@@ -74,10 +74,13 @@ const Modal = ({
                       arrow={display === "arrow"}
                       menuButton={
                         <MenuButton
+                          className="Modal__menuButton"
                           styles={{
                             color: "#184366",
                             fontWeight: "bold",
                             marginBottom: "2rem",
+                            fontSize: "1.1rem",
+                            cursor: "pointer",
                           }}
                         >
                           {data.name}
