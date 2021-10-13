@@ -415,52 +415,16 @@ const NAV_DATA = [
             url: "Lone Star High School",
           },
           {
-            name: "Ashley",
-            url: "hbaba",
+            name: "Memorial High School",
+            url: "http://schools.friscoisd.org/memorial",
           },
           {
-            name: "Ashley",
-            url: "hbaba",
+            name: "Reedy High School",
+            url: "http://schools.friscoisd.org/reedy",
           },
           {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
+            name: "Wakeland High School",
+            url: "http://schools.friscoisd.org/wakeland",
           },
         ],
       },
@@ -468,84 +432,16 @@ const NAV_DATA = [
         name: "Program Centers",
         subItems: [
           {
-            name: "Ashley",
-            url: "hbaba",
+            name: "Career & Technical Education Center",
+            url: "http://schools.friscoisd.org/cte",
           },
           {
-            name: "Ashley",
-            url: "hbaba",
+            name: "Early Childhood School",
+            url: "http://schools.friscoisd.org/ecs",
           },
           {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
-          },
-          {
-            name: "Ashley",
-            url: "hbaba",
+            name: "Student Opportunity Center",
+            url: "http://schools.friscoisd.org/soc",
           },
         ],
       },
