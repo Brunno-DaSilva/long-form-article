@@ -112,7 +112,7 @@ const Navigation = ({ NAV_DATA, SCHOOL_DATA }) => {
           <div className="suggestion"></div>
           <div className="search-items">
             <h3>It is open</h3>
-            <ul>
+            <ul id="search-results">
               <li>One </li>
               <li>Two </li>
               <li>Three </li>
