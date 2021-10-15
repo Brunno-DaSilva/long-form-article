@@ -103,14 +103,14 @@ img {
 
 .input {
   border-radius: 20px;
-  width: 65vw !important;
+  width: 1250px !important;
   padding: 0 50px !important;
   margin-right: 10px !important;
   color: #1e5583;
   font-size: 1rem;
   height: 40px;
   position: absolute;
-  left: -436.5%;
+  left: -455.5%;
   top: -22%;
   z-index: 500;
   transition: ease-in-out 0.4s;
