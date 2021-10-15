@@ -3,9 +3,12 @@ import "./searchResults.css";
 
 const SearchResults = () => {
   return (
-    <div className="SearchResults">
-      <div>Search</div>
-    </div>
+    <ul className="SearchResults">
+      <li>Search results</li>
+      <li>Search results</li>
+      <li>Search results</li>
+      <li>Search results</li>
+    </ul>
   );
 };
 

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import NavItems from "../NavItems/NavItems";
+import SearchResults from "../SearchResults/SearchResults";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { ReactComponent as FLogo } from "../../img/fisd-logo-white-rgb.svg";
@@ -111,8 +112,7 @@ const Navigation = ({ NAV_DATA, SCHOOL_DATA }) => {
         <div>
           <div className="backdrop"></div>
           <div className="search-items">
-            <h3>It is open</h3>
-            <ul id="search__results"></ul>
+            <SearchResults />
           </div>
         </div>
       )}
