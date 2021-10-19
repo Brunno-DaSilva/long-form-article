@@ -4,6 +4,7 @@ import Article from "../Article/Article";
 import Blockquote from "../Blockquote/Blockquote";
 import Parallax from "../Parallax/Parallax";
 import ImageGalleryA from "../ImageGalleryA/ImageGalleryA";
+import ImageContainer from "../ImageGalleryA/ImageContainer";
 
 import "./mainArticleForm.css";
 
@@ -37,7 +38,6 @@ const MainArticleForm = ({ ARTICLE_DATA }) => {
                 landingPageURL_img={landingPageURL_img}
                 landingPageURL_video={landingPageURL_video}
               />
-
               <Article
                 header={header}
                 articleSummary={articleSummary}
@@ -45,7 +45,6 @@ const MainArticleForm = ({ ARTICLE_DATA }) => {
                 readingTime={readingTime}
                 DateTime={DateTime}
               />
-
               <Article
                 subHeader={subHeader}
                 articleSummary={articleSummary}
@@ -55,11 +54,14 @@ const MainArticleForm = ({ ARTICLE_DATA }) => {
                 parallaxUrl_img={parallaxUrl_img}
                 parallax_text={parallax_text}
               />
-
               <Blockquote
                 blockquote={blockquote}
                 blockquoteAuthor={blockquoteAuthor}
               />
+
+              <ImageContainer imageGallery={imageGallery} />
+              <br />
+              <br />
 
               <ImageGalleryA imageGallery={imageGallery} />
             </>
