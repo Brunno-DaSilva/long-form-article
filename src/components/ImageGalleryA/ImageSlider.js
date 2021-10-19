@@ -23,8 +23,8 @@ const styles = {
   dot: {
     borderRadius: "99px",
     background: "#184366",
-    width: "5px",
-    height: "5px",
+    width: "10px",
+    height: "10px",
     margin: ".3rem",
     color: "#000",
   },

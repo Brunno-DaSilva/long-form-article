@@ -62,8 +62,6 @@ const MainArticleForm = ({ ARTICLE_DATA }) => {
               <ImageContainer imageGallery={imageGallery} />
               <br />
               <br />
-
-              <ImageGalleryA imageGallery={imageGallery} />
             </>
           );
         }

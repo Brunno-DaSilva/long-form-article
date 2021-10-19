@@ -23,7 +23,6 @@ const Image = styled(a.div)`
 `;
 
 const ImageContainer = ({ imageGallery }) => {
-  console.log(imageGallery);
   return (
     <Main>
       <InfiniteSlider items={items} imageGallery={imageGallery}>
