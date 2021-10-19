@@ -19,13 +19,14 @@ const Image = styled(a.div)`
   width: 100%;
   height: 100%;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
 `;
 
-const ImageContainer = ({ imageGallery }) => {
+const ImageContainer = () => {
   return (
     <Main>
-      <InfiniteSlider items={items} imageGallery={imageGallery}>
+      <InfiniteSlider items={items}>
         {({ css }, i) => (
           <Content>
             <Image style={{ backgroundImage: css }} />

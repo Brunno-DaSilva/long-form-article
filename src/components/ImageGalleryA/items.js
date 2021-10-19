@@ -1,7 +1,7 @@
 export default [
   {
     css: "url(https://res.cloudinary.com/duprwuo4j/image/upload/v1598505291/neonbrand-zFSo6bnZJTw-unsplash_1_q3dvgg.jpg)",
-    height: 150,
+    height: 300,
   },
   {
     css: "url(https://res.cloudinary.com/duprwuo4j/image/upload/v1598502460/pencil_sl098k.jpg)",

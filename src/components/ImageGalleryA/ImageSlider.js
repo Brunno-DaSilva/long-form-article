@@ -11,6 +11,8 @@ const styles = {
     overflow: "hidden",
     height: "100%",
     width: "100%",
+    boxShadow:
+      "0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)",
   },
   item: { position: "absolute", height: "100%", willChange: "transform" },
   dotcontainer: {
