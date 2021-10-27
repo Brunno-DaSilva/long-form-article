@@ -1,5 +1,6 @@
 import React, { Children } from "react";
 import "./Article.css";
+import ArticleIntro from "./ArticleIntro";
 
 const Article = ({
   header,
@@ -35,7 +36,7 @@ const Article = ({
           <p className="dropcap">{articleSummaryTwo}</p>
         </div>
         <div className="Article_body__text">
-          <p>{articleSummary}</p>
+          <ArticleIntro articleSummary={articleSummary} />
         </div>
       </div>
     </div>
