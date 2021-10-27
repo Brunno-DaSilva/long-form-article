@@ -47,7 +47,7 @@ const styles = {
     cursor: "pointer",
   },
   nextButton: {
-    marginRight: "-45px",
+    marginRight: "-70px",
     position: "absolute",
     background: "none",
     color: "#184366",
